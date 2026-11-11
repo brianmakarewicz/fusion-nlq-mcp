@@ -1,0 +1,14 @@
+# Secrets and runtime data, never commit
+.env
+metering.jsonl
+*.log
+*.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
